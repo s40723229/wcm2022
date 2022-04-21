@@ -59,6 +59,9 @@
 <v t="leo.20180423103656.1"><vh>@clean 20200813.md</vh>
 <v t="leo.20220421162230.1"><vh>newHeadline</vh></v>
 </v>
+<v t="leo.20220421165449.1"><vh>@clean 20220421.md</vh>
+<v t="leo.20220421165449.2"><vh>newHeadline</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -122,6 +125,31 @@ Flutter
 ----
 
 Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps</t>
+<t tx="leo.20220421165449.1">@language md
+---
+Title: WCM2022 blog 編輯
+Date: 2022-04-21 17:00
+Category: Misc
+Tags: wcm2022
+Slug: wcm2022_blog
+Author: yen
+---
+
+藉由編寫倉儲內config的pelican就可以管理或編輯網站的blog內容.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+@others
+
+</t>
+<t tx="leo.20220421165449.2">啟用Blog
+----
+編輯pelican內容
+
+
+
+
+</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
