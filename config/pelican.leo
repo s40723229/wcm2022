@@ -147,7 +147,7 @@ Author: yen
 編輯pelican內容
 
 &lt;script&gt;// &lt;![CDATA[
-var winkVideoData = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+var winkVideoData_blog = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
 // ]]&gt;&lt;/script&gt;
 &lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
 &lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/static" data-varname="winkVideoData" muted="true"&gt;

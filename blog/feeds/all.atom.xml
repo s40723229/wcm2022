@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM2022 40723229</title><link href="https://s40723229.github.io/wcm2022/blog/" rel="alternate"></link><link href="https://s40723229.github.io/wcm2022/blog/feeds/all.atom.xml" rel="self"></link><id>https://s40723229.github.io/wcm2022/blog/</id><updated>2022-04-21T20:00:00+08:00</updated><entry><title>WCM2022 blog 編輯</title><link href="https://s40723229.github.io/wcm2022/blog/wcm2022_blog.html" rel="alternate"></link><published>2022-04-21T17:00:00+08:00</published><updated>2022-04-21T20:00:00+08:00</updated><author><name>yen</name></author><id>tag:s40723229.github.io,2022-04-21:/wcm2022/blog/wcm2022_blog.html</id><summary type="html">&lt;p&gt;藉由編寫倉儲內config的pelican就可以管理或編輯網站的blog內容.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>WCM2022 40723229</title><link href="https://s40723229.github.io/wcm2022/blog/" rel="alternate"></link><link href="https://s40723229.github.io/wcm2022/blog/feeds/all.atom.xml" rel="self"></link><id>https://s40723229.github.io/wcm2022/blog/</id><updated>2022-04-21T20:15:32+08:00</updated><entry><title>WCM2022 blog 編輯</title><link href="https://s40723229.github.io/wcm2022/blog/wcm2022_blog.html" rel="alternate"></link><published>2022-04-21T17:00:00+08:00</published><updated>2022-04-21T20:15:32+08:00</updated><author><name>yen</name></author><id>tag:s40723229.github.io,2022-04-21:/wcm2022/blog/wcm2022_blog.html</id><summary type="html">&lt;p&gt;藉由編寫倉儲內config的pelican就可以管理或編輯網站的blog內容.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;藉由編寫倉儲內config的pelican就可以管理或編輯網站的blog內容.&lt;/p&gt;
 
 
 &lt;h2&gt;啟用Blog&lt;/h2&gt;
 &lt;p&gt;編輯pelican內容&lt;/p&gt;
 &lt;script&gt;// &lt;![CDATA[
-var winkVideoData = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+var winkVideoData_blog = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
 // ]]&gt;&lt;/script&gt;
 &lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
 &lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/static" data-varname="winkVideoData" muted="true"&gt;
