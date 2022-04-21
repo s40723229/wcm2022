@@ -54,14 +54,14 @@
 </v>
 <v t="leo.20170710022054.1"><vh>可以另建節點存放 markdown 目錄下的 md 檔案</vh></v>
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
-<v t="leo.20180115115910.1"><vh>2020</vh>
+<v t="leo.20180115115910.1"><vh>2022</vh>
 <v t="leo.20180423103639.1"><vh>2020 Fall CP 課程</vh>
 <v t="leo.20180423103656.1"><vh>@clean 20200813.md</vh>
 <v t="leo.20220421162230.1"><vh>newHeadline</vh></v>
 </v>
-<v t="leo.20220421165449.1"><vh>@clean 20220421.md</vh>
-<v t="leo.20220421165449.2"><vh>newHeadline</vh></v>
 </v>
+<v t="leo.20220421225010.1"><vh>啟用blog</vh>
+<v t="leo.20220421225035.1"><vh>@clean 20220421.md</vh></v>
 </v>
 </v>
 </v>
@@ -125,33 +125,36 @@ Flutter
 ----
 
 Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps</t>
-<t tx="leo.20220421165449.1">@language md
+<t tx="leo.20220421225010.1"></t>
+<t tx="leo.20220421225035.1">@language md
 ---
-Title: WCM2022 blog 編輯
+Title: WCM2022 Blog 編輯
 Date: 2022-04-21 17:00
 Category: Misc
-Tags: wcm2022
-Slug: wcm2022_blog
-Author: yen
+Tags: 2022WCM
+Slug: 2022_WCM Blog
+Author: 40723229
 ---
 
 藉由編寫倉儲內config的pelican就可以管理或編輯網站的blog內容.
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-@others
+&lt;!-- css and js for Wink3, 以下影片共用設定--&gt;
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" /&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
 
-</t>
-<t tx="leo.20220421165449.2">啟用Blog
+啟用Blog
 ----
 編輯pelican內容
 
-&lt;script&gt;// &lt;![CDATA[
+&lt;script&gt;
 var winkVideoData_blog = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
-// ]]&gt;&lt;/script&gt;
+&lt;/script&gt;
+&lt;/p&gt;
 &lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="/static" data-varname="winkVideoData" muted="true"&gt;
-&lt;source src="/downloads/blog_wink/blog_wink.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_blog" height="630" muted="true" width="1008"&gt;
+&lt;source src="./../downloads/blog_wink/blog_wink.mp4" type="video/mp4"/&gt;&lt;/video&gt;
 &lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
 &lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
 &lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
@@ -163,8 +166,7 @@ var winkVideoData_blog = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, 
 &lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
 &lt;/div&gt;
 
-
-</t>
+@others</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
