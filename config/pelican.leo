@@ -63,6 +63,9 @@
 <v t="leo.20220421225010.1"><vh>啟用blog</vh>
 <v t="leo.20220421225035.1"><vh>@clean 20220421.md</vh></v>
 </v>
+<v t="leo.20220422111622.1"><vh>midterm</vh>
+<v t="leo.20220422111638.1"><vh>@clean 20220422.md</vh></v>
+</v>
 </v>
 </v>
 <v t="yen.20170108171733.83"><vh>產生 .key 與 .crt 指令</vh></v>
@@ -167,6 +170,46 @@ var winkVideoData_blog = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, 
 &lt;/div&gt;
 
 @others</t>
+<t tx="leo.20220422111622.1"></t>
+<t tx="leo.20220422111638.1">@language md
+---
+Title: midterm
+Date: 2022-04-22 11:00
+Category: Misc
+Tags: 2022WCM
+Slug: midterm
+Author: 40723229
+---
+
+期中測驗.
+
+&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;!-- css and js for Wink3, 以下影片共用設定--&gt;
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css" /&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+
+期中測驗
+----
+
+
+&lt;script&gt;
+var winkVideoData_w8 = { dataVersion: 1, frameRate: 10, buttonFrameLength: 5, buttonFrameOffset: 2, frameStops: { }, };
+&lt;/script&gt;
+&lt;/p&gt;
+&lt;!-- 接下來將 mp4 檔案從 downloads 目錄取出 --&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_w8" height="630" muted="true" width="1008"&gt;
+&lt;source src="./../downloads/w8_project/w8_project.mp4" type="video/mp4"/&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
